@@ -63,21 +63,33 @@ body {
 input {
   /* margin: 12px; */
   /* size: 2px; */
-  margin-left: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   background-color: wheat;
   padding: 5px;
   text-align: center;
   border: solid;
-  width: 250px;
-  height: 45px;
+  border-color: crimson;
+  width: 850px;
+  height: 180px;
+  font-size:65px;
+
+
+  
 }
 
 button {
-  size: 10px;
+  size: 70px;
   margin-left:10px;
   border-style: #444;
   border-width :5px;
   border-color: yellowgreen;
+  background-color: yellowgreen;
+  height: 80px;
+  width: 120px;
+  font-size: 50px;
+  /* animation: reverse; */
 }
 
 #identity-details {
@@ -88,14 +100,22 @@ button {
 }
 
 #my-photo{
-  margin-bottom: 1px;
-  display: block;
-  margin-left: 800px;
-  margin-right: 500px;
-  width: 250px;
-  height: 300px;
-  /* text-align: center; */
-  ;
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
+  margin-bottom: 50px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 60px;
+  /* text-size-adjust: 60%; */
 }
 
 
@@ -105,146 +125,292 @@ button {
   border-width: 12px;
   border-style: ridge;
   border-color: violet;
-  color: brown;
-  margin-bottom: 6px;
-  margin-right: 30%;
-  margin-left: 30%;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-right: 1200px;
+  margin-left: 1200px;
   text-align: center;
   margin-top: 10px;
   padding: 12px;
   padding-right: 1px;
+  height: 100px;
+  font-size: 70px;
   /* Width: 270px; */
 }
 
 #topics2{
-  background-color: #444;
-  border: 1px solid whitesmoke;
+  background-color: aquamarine;
+  border: 1px solid #fff;
   border-width: 12px;
   border-style: ridge;
-  border-color: violet;
-  text-align: center;
+  /* border-color: violet; */
   color: brown;
-  margin-right: 30%;
-  margin-left: 30%;
-  margin-bottom: 6px;
-  margin-top: 30px;
-  padding: 7px;
+  margin-bottom: 10px;
+  margin-right: 1400px;
+  margin-left: 1400px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 12px;
   padding-right: 1px;
-  /* Width: 120px; */
+  height: 80px;
+  font-size: 45px;
+  /* Width: 270px; */
 }
 
 #topics3{
-  background-color: #444;
+  background-color: #1abc9c;
   text-align: center;
-  border: 1px solid whitesmoke;
+  border: 1px solid chocolate;
   border-width: 12px;
   border-style: ridge;
-  border-color: violet;
+  /* border-color: violet; */
   color: brown;
-  margin-right: 30%;
-  margin-left: 30%;
+  margin-right: 1500px;
+  margin-left: 1500px;
   margin-bottom: 6px;
   margin-top: 50px;
   padding: 12px;
   padding-right: 1px;
+  height: 70px;
+  font-size: 60px;
+  text-shadow: #444;
   /* Width: 250px; */
 }
 
 #topics4{
   background-color: #444;
-  border: 1px solid whitesmoke;
+  border: 1px solid coral;
   border-width: 12px;
   text-align: center;
   border-style: ridge;
-  border-color: violet;
-  color: brown;
-  margin-right: 30%;
-  margin-left: 30%;
+  /* border-color: violet; */
+  color: yellowgreen;
+  margin-right: 600px;
+  margin-left: 2100px;
   margin-bottom: 6px;
   margin-top: 50px;
   padding: 12px;
   padding-right: 1px;
+  height: 60px;
+  width: 700px;
+  font-size: 45px;
   /* Width: 180px; */
 }
 
 #topics5{
   background-color: #444;
   text-align: center;
-  border: 1px solid whitesmoke;
+  border: 1px solid darkorange;
   border-width: 12px;
   border-style: ridge;
-  border-color: violet;
-  color: brown;
-  margin-right: 30%;
-  margin-left: 30%;
+  /* border-color: violet; */
+  color: #fff;
+  margin-right: 2300px;
+  margin-left: 2200px;
   margin-bottom: 6px;
   margin-top: 40px;
   padding: 12px;
   padding-right: 1px;
+  height: 70px;
+  font-size: 50px;
   /* Width: 130px; */
 }
 
 #paragraph1{
   text-size-adjust: 200px;
   margin-right: 400px;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-top: 9px;
-  margin-bottom: 7px;
+  /* height: 120px; */
+  margin-bottom: 50px;
   /* width: 250px; */
-  border: solid;
-  /* width: 400px; */
-  height: 60px;
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
   border-width: 5px;
   /* border-spacing: 5%; */
   text-align: center;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 60px;
   /* text-size-adjust: 60%; */
 }
 
 #paragraph2{
-  margin-top: 2px;
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
+  margin-bottom: 1px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
   text-align: center;
-  margin-bottom: 0px;
-  font-size: 30px;
-  /* border: solid */
+  box-sizing: border-box;
+  font-size: 60px;
+  /* text-size-adjust: 60%; */
 }
 
 #paragraph2a{
-  margin-top: 0px;
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
   margin-bottom: 1px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
   text-align: center;
-  font-size: 30px;
-  /* border: solid */
+  box-sizing: border-box;
+  font-size: 60px;
+  /* text-size-adjust: 60%; */
 }
 
 #paragraph2b{
-  margin-top: 0px;
-  margin-bottom: 2px;
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
+  margin-bottom: 1px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
   text-align: center;
-  font-size: 22px;
-  /* border: solid */
+  box-sizing: border-box;
+  font-size: 60px;
+  /* text-size-adjust: 60%; */
 }
 
 #paragraph2c{
-  margin-top: 0px;
-  margin-bottom: 9px;
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
+  margin-bottom: 1px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
   text-align: center;
-  font-size: 17px;
+  box-sizing: border-box;
+  font-size: 60px;
+  /* text-size-adjust: 60%; */
+}
+
+#paragraph2d{
+  margin-top: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
   /* border: solid */
 }
 
 
 #paragraph3{
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
+  margin-bottom: 1px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
   text-align: center;
-  margin-top: 1px;
-  margin-bottom: 4px;
-  /* border: solid */
+  box-sizing: border-box;
+  font-size: 45px;
+  /* text-size-adjust: 60%; */
 }
 
-#paragraph4{
-  /* margin-top: 2px; */
-  margin-bottom: 9px;
-  /* border: solid */
+#paragraph3a{
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
+  margin-bottom: 1px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
   text-align: center;
+  box-sizing: border-box;
+  font-size: 35px;
+  /* text-size-adjust: 60%; */
+}
+
+#paragraph3b{
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 9px;
+  /* height: 120px; */
+  margin-bottom: 1px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 30px;
+  /* text-size-adjust: 60%; */
+}
+
+#paragraph3c{
+  color: aqua;
+  text-size-adjust: 200px;
+  margin-right: 400px;
+  margin-left: 300px;
+  margin-top: 30px;
+  /* height: 120px; */
+  margin-bottom: 0px;
+  /* width: 250px; */
+  /* border: solid; */
+  /* width: 350px; */
+  /* height: 90px; */
+  border-width: 5px;
+  /* border-spacing: 5%; */
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 60px;
+  /* text-size-adjust: 60%; */
+}
+
+#copyright{
+  text-align: center;
+  margin-right: 200px ;
+  margin-left: 220px;
+  margin-top: 55px;
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+
+#link-sites{
+  text-align: center;
+  margin-right: 200px ;
+  margin-left: 220px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 40px;
 }
