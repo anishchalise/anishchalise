@@ -1,7 +1,7 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  /* padding: 0;
+  margin: 0; */
+  /* box-sizing: border-box; */
    background-color: #1abc9c;
    /* color: #212529; */
   /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
@@ -41,7 +41,9 @@ body {
   color: brown;
   margin-bottom: 15px;
   margin-top: 20px;
-  padding: 5px
+  padding: 12px;
+  padding-right: 1px;
+  Width:
   /* margin: 22px; */
 }
 
@@ -73,7 +75,8 @@ input {
   background-color: wheat;
   padding: 5px;
   border: solid;
-  width: 150px;
+  width: 250px;
+  height: 45px;
 }
 
 button {
@@ -94,4 +97,102 @@ button {
   width: 150px;
   height: 200px;
   ;
+}
+
+
+#topics1{
+  background-color: #444;
+  border: 1px solid whitesmoke;
+  border-style: ridge;
+  border-color: violet;
+  color: brown;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  padding: 12px;
+  padding-right: 1px;
+  Width: 270px;
+}
+
+#topics2{
+  background-color: #444;
+  border: 1px solid whitesmoke;
+  border-style: ridge;
+  border-color: violet;
+  color: brown;
+  margin-bottom: 6px;
+  margin-top: 30px;
+  padding: 7px;
+  padding-right: 1px;
+  Width: 120px;
+}
+
+#topics3{
+  background-color: #444;
+  border: 1px solid whitesmoke;
+  border-style: ridge;
+  border-color: violet;
+  color: brown;
+  margin-bottom: 6px;
+  margin-top: 50px;
+  padding: 12px;
+  padding-right: 1px;
+  Width: 250px;
+}
+
+#topics4{
+  background-color: #444;
+  border: 1px solid whitesmoke;
+  border-style: ridge;
+  border-color: violet;
+  color: brown;
+  margin-bottom: 6px;
+  margin-top: 50px;
+  padding: 12px;
+  padding-right: 1px;
+  Width: 180px;
+}
+
+#topics5{
+  background-color: #444;
+  border: 1px solid whitesmoke;
+  border-style: ridge;
+  border-color: violet;
+  color: brown;
+  margin-bottom: 6px;
+  margin-top: 40px;
+  padding: 12px;
+  padding-right: 1px;
+  Width: 130px;
+}
+
+#paragraph1{
+  margin-top: 2px;
+  margin-bottom: 1px;
+  width: 250px;
+  border: solid;
+  box-sizing: border-box;
+}
+
+#paragraph2{
+  margin-top: 2px;
+  margin-bottom: 1px;
+  /* border: solid */
+}
+
+#paragraph2a{
+  /* margin-top: 2px; */
+  margin-bottom: 9px;
+  /* border: solid */
+}
+
+#paragraph3{
+  margin-top: 1px;
+  margin-bottom: 4px;
+  /* border: solid */
+}
+
+#paragraph4{
+  /* margin-top: 2px; */
+  margin-bottom: 9px;
+  /* border: solid */
 }
