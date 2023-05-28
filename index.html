@@ -1,162 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css.css" rel="stylesheet"/>
-    <style>
-      /* Style the navigation bar */
-      .navbar {
-        scale: 150px;
-        overflow: hidden;
-        border: 5px  solid greenyellow;
-        /* background-color: #333; */
-        font-family: Arial, sans-serif;
-        width:fit-content;
-      }
-
-      /* Links inside the navigation bar */
-      .navbar a {
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      /* Change the color of links on hover */
-      .navbar a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-
-      /* Active link */
-      .active {
-        background-color: #4caf50;
-        color: white;
-      }
-
-      /* Responsive navigation menu */
-      @media screen and (max-width: 600px) {
-        .navbar a:not(:first-child) {
-          display: none;
-        }
-        .navbar a.icon {
-          float: right;
-          display: block;
-        }
-      }
-
-      @media screen and (max-width: 600px) {
-        .navbar.responsive {
-          position: relative;
-        }
-        .navbar.responsive a.icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .navbar.responsive a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Navigation bar -->
-    <div class="navbar" id="myNavbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="#more">More</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        &#9776;
-      </a>
-    </div>
-
-    <!-- Page content -->
-    <div style="padding: 20px">
-      <h2 id="topics1">Welcome to my Website!</h2>
-    <p id="paragraph1">
-      This is my offficial webiste.
-    </p>
-    <h2 id="topics2">Know Me!!</h2>
-    <p id="paragraph2">Hi, This is me Anish Chalise.</p> <p id="paragraph2a"> An unknown Guy!!! </p> 
-    <p id="paragraph2b"> Exists here in the Universe...</p><p id="paragraph2c">(I swear, an upcomming engineer..!)😂"</p>
-    <image  id="my-photo" <img class="masthead-avatar mb-5" src="Anish.jpg"  alt= "..." />
-    
-    
-    <!-- Creating an box to input email -->
-    <form>
-        <h3 id="topics3">If you wish to provide us your Information!</h3>
-        <!-- <p id="identity-details"><u><b>Would you prefer to provide us your Identity?</b></u></p> -->
-        <input id="box-container" type="text" placeholder="May i know your Name!">
-        
-        <button id="box-container">OK!</button>
-    </form>
-
-    <h3 id="topics4">My Last Words!!!</h3>
-    <p id="paragraph3">
-      Thank you for being here!
-      I hope you  feel good being here, even though many things aren't explored till the date!
-      <h3 id="topics5">Disclaimer!!</h3>
-      <p id="paragraph3a">This website is now under development..!!</p>
-      <p id="paragraph3b">Till then Stay tune..!
-
-      <div style="padding:20px" id="contact">
-      <h2>Contact Us</h2>
-      <p>Feel free to contact us using the information below:</p>
-      <ul>
-        <li>Phone: +9779867****** </li>
-        <li>Email: anishchalise@gmail.com</li>
-        <li>Address:Butwal, Rupandehi, Lumbini; Nepal</li>
-      </ul>
-      </div>
-        
-      <p id="paragraph3c">
-      if you wish to visit..!🤷‍♂️
-      <!-- <nav> -->
-      <p id ="link-sites">
-      <a href="http://github.com/anishchalise"><i class="link-site"></i><b>GitHub</b></a>
-      <a href="https://www.linkedin.com/in/anishchalise"><i class="link-site"></i><b>Linkedin</b></a>
-      <a href="https://www.clubhouse.com/@anishchalise"><i class="link-site"></i><b>ClubHouse</b></a>
-      <a href="https://www.youtube.com/@anishchalse"><i class="link-site"></i><b>YouTube</b></a>
-      <a href="http://facebook.com/mranishtics"><i class="link-site"></i><b>Facebook</b></a>
-      <a href="https://www.instagram.com/mranitics/"><i class="link-site"></i><b>Instagram</b></a>
-      <a href="https://twitter.com/mranishtics"><i class="link-site"></i><b>Twitter</b></a>
-      <a href="https://www.chess.com/member/anishchalise"><i class="link-site"></i><b>Chess</b></a>
-      </p>
-      </div>
-      <!-- </nav> -->
-
-    <!-- Copyright Section-->
-        <div id="copyright">
-            <div class="container"><small><b>Copyright &copy;</b> <i>2021/23</i></small></div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Anish Chalise Official Website</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="Anish.jpg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Mr.Anish</h1>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Student</font></p>
+                <p <font size="18"> <class="masthead-subheading font-weight-light mb-0"><i>B. Tech Computer Science Engineering</i><br>(<i>AI</i>/<i>DS</i>)</br></font></p>
+                <nav>
+                    <a href="http://github.com/anishchalise"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/anishchalise"><i class="fab fa-github"></i></a>
+                    <a href="https://www.clubhouse.com/@anishchalise"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/channel/UCaJLqyG3MRG02m2lox6apBg"><i class="fab fa-youtube"></i></a>
+                    <a href="http://facebook.com/anishchalse"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/anishchalse/"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/anishchalse"><i class="fab fa-github"></i></a>
+                </nav>
+              
+               
+            </div>
+        </header>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; 2021/22 Anish Chalise</small></div>
         </div>
-    </div>
-
-     
-    <script>
-      // Toggle between adding and removing the "responsive" class to the navbar
-      function myFunction() {
-        var x = document.getElementById("myNavbar");
-        if (x.className === "navbar") {
-          x.className += " responsive";
-        } else {
-          x.className = "navbar";
-        }
-
-      // Toggle between adding and removing the "responsive" class to the navbar
-      function myFunction() {
-        var x = document.getElementById("myNavbar");
-        if (x.className === "navbar") {
-          x.className += " responsive";
-        } else {
-          x.className = "navbar";
-        }  
-      }
-    </script>
-  </body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
