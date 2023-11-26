@@ -1,152 +1,64 @@
-* {
-  background-color: #1abc9c;
-}
-
 body {
-  margin-bottom: 13px;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
 
-.topics {
-  border: 1px solid whitesmoke;
-  border-style: ridge;
-  border-color: violet;
-  color: brown;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-#your-name {
-  color: darkviolet;
-  background-color: rgb(255, 220, 105);
-  border: 5px solid #444;
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
-input {
-  background-color: wheat;
-  padding: 5px;
-  border: solid;
-  border-color: crimson;
-  font-size: 35px;
+header h1 {
+    margin: 0;
 }
 
-button {
-  width: 70px;
-  border: 5px solid yellowgreen;
-  background-color: yellowgreen;
-  font-size: 25px;
+.about-me, .contact {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
 }
 
-#my-photo {
-  margin-top: 9px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  width: 300px;
-  height: 250px;
+.about-me h2, .contact h2 {
+    color: #333;
 }
 
-#topics1 {
-  background-color: #444;
-  border: 12px ridge whitesmoke;
-  color: #fff;
-  font-size: 30px;
-  width: 400px;
+
+/* Added some styling for the profile image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
-#topics2 {
-  background-color: aquamarine;
-  border: 12px ridge #fff;
-  color: brown;
-  font-size: 45px;
-  width: 400px;
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#topics3 {
-  background-color: #1abc9c;
-  border: 12px ridge chocolate;
-  color: brown;
-  font-size: 25px;
-  text-shadow: #444;
-  width: 500px;
-}
-
-#topics4 {
-  background-color: #444;
-  border: 12px ridge coral;
-  color: yellowgreen;
-  font-size: 45px;
-  width: 380px;
-}
-
-#topics5 {
-  background-color: #444;
-  border: 12px ridge darkorange;
-  color: #fff;
-  font-size: 50px;
-  width: 330px;
-}
-
-#paragraph1 {
-  font-size: 35px;
-}
-
-#paragraph2,
-#paragraph2b,
-#paragraph2d {
-  font-size: 25px;
-}
-
-#paragraph2a {
-  font-size: 30px;
-}
-
-#paragraph2c {
-  font-size: 30px;
-}
-
-#paragraph3 {
-  font-size: 20px;
-}
-
-#paragraph3a {
-  font-size: 25px;
-}
-
-#paragraph3b {
-  font-size: 10px;
-}
-
-#paragraph3c {
-  color: aqua;
-  font-size: 20px;
-}
-
-#link-sites {
-  font-size: 20px;
+.contact p {
+    margin: 10px 0;
 }
 
 @media screen and (max-width: 600px) {
-  #topics1,
-  #topics2,
-  #topics3,
-  #topics4,
-  #topics5,
-  .topics,
-  #your-name,
-  input,
-  button,
-  #my-photo,
-  #paragraph1,
-  #paragraph2,
-  #paragraph2b,
-  #paragraph2d,
-  #paragraph2a,
-  #paragraph2c,
-  #paragraph3,
-  #paragraph3a,
-  #paragraph3b,
-  #paragraph3c,
-  #link-sites {
-    width: 100%;
-    font-size: 16px;
-  }
+    header {
+        padding: 10px 0;
+    }
+
+    .about-me, .contact {
+        padding: 10px;
+    }
 }
